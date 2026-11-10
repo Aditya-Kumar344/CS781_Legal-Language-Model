@@ -2,13 +2,6 @@
 
 A compact, self-hosted legal NLP pipeline developed for the **CS781 Capstone Project** at the Indian Institute of Technology Kanpur. The project studies training small Transformer language models from scratch on Indian legal text and adapting them to six downstream legal NLP tasks under limited compute and data constraints.
 
-**Author:** Aditya Kumar  
-**Roll No.:** 240059  
-**Institution:** IIT Kanpur  
-**Repository:** [CS781_Legal-Language-Model](https://github.com/Aditya-Kumar344/CS781_Legal-Language-Model)
-
----
-
 ## Project Overview
 
 The system follows seven phases of the IL-TUR-style benchmark:
@@ -121,14 +114,6 @@ Most comparisons use a single seed. Small score differences should be interprete
 - **External data:** No external legal corpus was added.
 - **Compute:** Kaggle T4 GPUs were the main training platform, with session limits and checkpoint/resume logic.
 - **Long-document constraint:** The context was 512 tokens, so downstream tasks used chunking, selection or aggregation strategies.
-
-## Repository and Execution
-
-The implementation and phase notebooks are maintained in the GitHub repository:
-
-[CS781_Legal-Language-Model](https://github.com/Aditya-Kumar344/CS781_Legal-Language-Model)
-
-Refer to the notebooks and scripts in the repository for the exact execution order and environment setup. The report does not specify a single universal command that runs all seven phases end-to-end.
 
 ## Limitations
 
